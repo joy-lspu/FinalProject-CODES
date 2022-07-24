@@ -1,0 +1,627 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* LOGIN STYLE */
+
+body#LBody{
+	background: url("../images/LoginBG.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+body{
+	font-family: sans-serif;
+}
+
+div.LHeader{
+	text-align: center;
+	margin-bottom: 75px;
+}
+div.LHeader img {
+	width: 800px;
+	height: 200px;
+	margin-top: 3%;
+	margin-left: 562px;
+	display: block;
+
+}
+div.is {
+	font-family: "Courier New", cursive;
+	font-size: 65px;
+	font-weight: bold;
+	color: darkred;
+	margin-top: -145px;
+	margin-left: 730px;
+	position: absolute;
+}
+div.LBody form{
+	margin: 0 auto;
+	width: 500px;
+	background: rgba(0, 0, 0, .5);
+	padding: 40px;
+	border: 4px solid #fff;
+}
+div.LSignIn label{
+	margin-top: 15px;
+}
+div.LSignIn label{
+	display: block;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 3px;
+}
+div.LSignIn input{
+	font-size: 15px;
+	height: 35px;
+	width: 98%;
+	border: 2px solid lightgrey;
+}
+
+div.LButton{
+	margin-top: 35px;
+	text-align: center;
+}
+div.LButton button{
+	font-family: saddlebag;
+	font-size: 20px;
+	font-weight: bolder;
+	color: #993300;
+	padding: 5px 45px;
+	background: #ff9999;
+	border: none;
+	border-radius: 5px;
+}
+div.LButton button:hover{
+	color: white;
+	border: 1px solid darkred;
+}
+
+/* HOMEPAGE STYLE */
+
+div.header{
+	width: 100%;
+	height: 30px;
+	background: #d4af37;
+	padding-top: 10px;
+	padding-left: 1750px;
+}
+
+div.header a{
+	font-family: Times New Roman;
+	font-size: 18px;
+	color: #8b0000;
+	border: 2px solid darkred;
+	border-radius: 6px;
+	padding: 4px 5px;
+	text-decoration: none;
+	display: inline-block;
+}
+div.header a:hover{
+	color: maroon;
+	background-color: #e5cf87;
+}
+div.GELOGO{
+	background: url("../images/homepage.jpg") no-repeat center center fixed;
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+div.HomePage{
+	width: 100%;
+	max-width: 900px;
+	height: 86vh;
+	margin: 0 auto;
+}
+div.Front {
+	font-family: Osaka sans-serif;
+	font-size: 100px;
+	color: #FF0000;
+	line-height: 100%;
+}
+div.Front img{
+	width: 800px;
+	height: 200px;
+	text-align: left;
+}
+div.para{
+	font-family: "Courier New", cursive;
+	font-size: 68px;
+	font-weight: bold;
+	color: #8b0000;
+	position: absolute;
+	top: 30%;
+	left: 670px;
+}
+p.Tagline{
+	font-family: Techton Pro;
+	font-size: 25px;
+	color: black;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+
+div.GEFeatures{
+	display: flex;
+	flex-direction: row;
+	padding: 15px;
+}
+
+div.GEFeatures: hover{
+		border-top: 2px solid #0000;
+		transition: 0.5s all;
+
+}
+div.GEFeatures span.FeatureIcon{
+	height: 40px;
+	width: 45px;
+	display: inline-block;
+	font-size: 30px;
+	color: #fff;
+	background: darkcyan;
+	padding: 9px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+
+}
+div.GEFeatures h3.FeatureTitle{
+	margin-bottom: 60px;
+
+}
+div.GEFeatures p.FeatureDesc{
+	color: #848484;
+	margin-top: 50px;
+	margin-left: -150px;
+
+}
+
+
+div.GEIcons{
+	margin-top: 50px;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+}
+div.GEIcons a{
+	font-size: 30px;
+	margin-left: 10px;
+	color: #006633;
+	height: 20px;
+	width: 20px;
+
+}
+div.GEIcons a:first-child{
+	margin-left: 0px;
+}
+div.GEIcons a:hover{
+	font-size: 25px;
+	color: #660000;
+}
+
+/* DASHBOARD STYLE */
+
+#DBMain{
+	display: flex;
+	flex-direction: row;
+}
+div.DB_sidebar{
+	width: 20%;
+	background-color: #f08080;
+	background: linear-gradient(#f4d362, #f7ef8a);
+	height: 110vh;
+}
+div.DB_content{
+	width: 95%;
+	background: lightgray;
+}
+div.DB_logo img{
+	width: 320px;
+	height: 90px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+div.DB_user{
+	text-align: center;
+	position: relative;
+	margin-bottom: 20px;
+	border-bottom: 2px solid brown;
+}
+div.DB_user img{
+	width: 65px;
+	border-radius: 45px;
+	border: 2px solid darkred;
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	vertical-align: middle;
+}
+div.DB_user span{
+	top: 20%;
+	margin: 2px;
+	font-family: zero hour;
+	font-size: 28px;
+	color: darkred;
+	display: inline-block;
+}
+ul.DB_list{
+	margin-top: 10%;
+}
+ul.DB_list li{
+	font-family: freshman;
+	padding: 15px 15px;
+}
+ul.DB_list li a{
+	font-size: 22px;
+	margin-left: 10px;
+	text-decoration: none;
+	color: saddlebrown;
+	height: 100%;
+	display: block;
+
+}
+ul.DB_list li:hover,
+ul.DB_list li:hover a {
+	background-color: #b22222;
+	color: whitesmoke;
+}
+ul.DB_list li a i{
+	font-size: 25px;
+}
+div.DB_top{
+	background: white;
+	padding: 10px;
+}
+div.DB_top a{
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+}
+a#signoutbtn{
+	float: right;
+}
+div.DB_content{
+	padding: 10px 10px 10px;
+}
+div.DBC_main{
+	background: whitesmoke;
+	height: 100%;
+	min-height: 900px;
+}
+div#ErrMssg{
+    background: beige;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    padding: 11px;
+}
+
+/* For Error Message */
+div#ErrMsg{
+		background: whitesmoke;
+    color: red;
+    padding: 1px;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*Add New User*/
+form::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+form.App {
+	width: 90%;
+	margin: 10px auto;
+	padding: 23px;
+	border: 2px solid #9f7a7d;
+	border-radius: 10px;
+	background: linear-gradient(#f0efe2, #e0e0d5, #d0d0ca);
+	font-weight: bold;
+	font-size: 17px;
+}
+input[type = text], 
+input[type = password] {
+	width: 100%;
+	height: 35px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	font-weight: normal;
+}
+input[id = First_Name],
+input[id = Last_Name] {
+	text-transform: capitalize;
+}
+div#AddNewUser{
+	padding-top: 10px;
+}
+button.SubmitBtn {
+	width: 55%;
+	color: darkred;
+	background: lightgrey;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 25px;
+	float: right;
+}
+p.resMessage {
+	font-size: 17px;
+	color: #b22222;
+	text-align: center;
+	padding:  10px;
+	animation: Hidden 3s forwards;
+	text-transform: capitalize;
+}
+@keyframes Hidden {
+	0% {
+		opacity: 1;
+	}
+	99% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+/*New User Page*/
+div.row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+div.column {
+	margin-top: 10px;
+	width: 100%;
+	padding: 0px 10px;
+}
+div.c1 {
+	width: 38%;
+}
+div.c2 {
+	width: 62%;
+}
+h1.SecTitle {
+	font-size: 26px;
+	color: #8b0000;
+	padding: 3px;
+	text-align: center;
+	margin-top: 30px;
+	border-bottom: 2px solid #9f7a7d;
+}
+table, th, td {
+	margin: 20px auto;
+	border: 2px solid #9f7a7d;
+	border-collapse: collapse;
+}
+table {
+	width: 100%;
+	background: linear-gradient(#f0efe2, #e0e0d5, #d0d0ca);
+}
+table th {
+	font-size: 17px;
+	text-transform: capitalize;
+	text-align: center;
+}
+table td {
+	font-size: 15px;
+	padding: 3px;
+}
+p.UCount {
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: -13px;
+	text-align: left;
+}
+
+td.no,
+td.Cdate,
+td.Up,
+td.iconn {
+	text-align: center;
+}
+
+/*Add New Product*/
+
+form::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+form.AProd {
+	width: 90%;
+	margin: 20px auto;
+	padding: 23px;
+	border: 2px solid #9f7a7d;
+	border-radius: 10px;
+	background: linear-gradient(#f0efe2, #e0e0d5, #d0d0ca);
+	font-weight: bold;
+	font-size: 17px;
+}
+div#AddNewProd{
+	padding-top: 10px;
+}
+
+input[id = Prod_Name] {
+	width: 100%;
+	height: 35px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	margin-bottom: 18px;
+	font-weight: normal;
+}
+
+input[id = Qty] {
+	width: 100%;
+	height: 35px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	margin-bottom: 18px;
+	font-weight: normal;
+}
+input[id = Price] {
+	width: 100%;
+	height: 35px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	margin-bottom: 18px;
+	font-weight: normal;
+}
+input[id = Expdate] {
+	width: 100%;
+	height: 35px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	margin-bottom: 18px;
+	font-weight: normal;
+}
+
+input[id = Prod_Name]
+{
+	text-transform: capitalize;
+}
+select.form-select {
+	width: 100%;
+	height: 35px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	margin-bottom: 18px;
+	font-weight: normal;
+	margin-right: 17px;
+}
+div.row-1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+div.p1 {
+	width: 38%;
+}
+div.p2 {
+	width: 62%;
+}
+button.submitbtn {
+	width: 50%;
+	color: darkred;
+	background: lightgrey;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 25px;
+	float: right;
+}
+td.SStat,
+td.Edate,
+td.PPrice,
+td.QQty,
+td.num, 
+td.icon {
+	text-align: center;
+}
+
+/*Add Remove*/
+form.St {
+	width: 90%;
+	margin: 20px auto;
+	padding: 23px;
+	border: 2px solid #9f7a7d;
+	border-radius: 10px;
+	background: linear-gradient(#f0efe2, #e0e0d5, #d0d0ca);
+	font-weight: bold;
+}
+div#AddStock{
+	padding-top: 10px;
+}
+button.add {
+	width: 50%;
+	color: darkred;
+	background: lightgrey;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 25px;
+	float: right;
+}
+div.col3 
+{
+	width: 30%;
+	color: darkred;
+	background: linear-gradient(#f0efe2, #e0e0d5, #d0d0ca);
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 15px;
+	margin-top: 50px;
+	float: right;
+	margin-left: 50px;
+}
